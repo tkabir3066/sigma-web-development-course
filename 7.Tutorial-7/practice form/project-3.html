@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 3</title>
+  </head>
+  <body>
+    <h2>Complex Form</h2>
+    <fieldset>
+      <legend>Personal Details</legend>
+      <div>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your Name"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your email"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="phone">Phone:</label>
+        <select>
+          <option value="ind">+91</option>
+          <option value="pak">+92</option>
+          <option value="afg">+93</option>
+          <option value="ban">+88</option>
+        </select>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="eg: 0044046522"
+        />
+      </div>
+
+      <br />
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob" />
+      </div>
+
+      <br />
+
+      <div>
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="male" checked />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="oth" />
+        <label for="oth">Other</label>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+          <option value="ind">India</option>
+          <option value="usa">USA</option>
+          <option value="can">Canada</option>
+          <option value="eng">England</option>
+        </select>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Address</legend>
+      <div>
+        <label for="street">Street:</label>
+        <input
+          type="text"
+          name="street"
+          id="Street"
+          placeholder="eg: Main Street"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="city">City:</label>
+        <input type="text" name="city" id="city" placeholder="eg: Kolkata" />
+      </div>
+      <br />
+
+      <div>
+        <label for="state">State:</label>
+        <select name="state" id="state">
+          <option value="wb">West Bengal</option>
+          <option value="bihar">Bihar</option>
+          <option value="up">UP</option>
+          <option value="pun">Punjab</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label for="zip">Zip Code</label>
+        <input type="number" name="zip" id="zip" placeholder="eg: 543588872" />
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Other information</legend>
+
+      <div>
+        <label for="comment">Comment:</label>
+        <br />
+        <textarea name="comment" id="comment" cols="30" rows="6"></textarea>
+      </div>
+
+      <div>
+        <input type="checkbox" name="term" id="term" />
+        <label for="term">I agree to the term and services</label>
+      </div>
+      <br />
+
+      <button type="submit">Submit</button>
+    </fieldset>
+  </body>
+</html>

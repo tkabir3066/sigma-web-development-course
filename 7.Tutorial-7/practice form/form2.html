@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 2</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>HTML Dummy Form</legend>
+        <div>
+          <label for="datepicker">Choose Date</label>
+          <input type="date" name="date" id="date" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="dishe">Select Your dish</label>
+          <select name="dish" id="dish">
+            <option value="pakoda">Pakoda</option>
+            <option value="maggi">Maggi</option>
+            <option value="panir" selected>Panir</option>
+            <option value="dal">Dal</option>
+          </select>
+        </div>
+
+        <br />
+
+        <div>
+          <textarea
+            name="comment"
+            id="comment"
+            cols="25"
+            rows="3"
+            placeholder="Comment here..."
+          ></textarea>
+        </div>
+        <br />
+        <button type="submit">Submit Here</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

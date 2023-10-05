@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 1</title>
+  </head>
+  <body>
+    <h2>Event Registration</h2>
+    <form>
+      <div>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your Name"
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="tel">Telephone:</label>
+        <select name="code" id="code">
+          <option value="ind">+91</option>
+          <option value="ban">+88</option>
+          <option value="pak">+92</option>
+          <option value="afg">+93</option>
+        </select>
+        <input type="tel" name="tel" id="tel" />
+      </div>
+      <br />
+
+      <div>
+        <label for="occupation">Occupation:</label>
+        <select name="occupation" id="occupation">
+          <option value="eng">Engineer</option>
+          <option value="teacher">Teacher</option>
+          <option value="acc">Accountant</option>
+          <option value="oth">Other</option>
+        </select>
+      </div>
+
+      <br />
+
+      <div>
+        <label>Topics of Interest:</label>
+        <input type="checkbox" name="html" id="html" />
+        <label for="html">HTML</label>
+        <input type="checkbox" name="css" id="css" />
+        <label for="css">CSS</label>
+        <input type="checkbox" name="js" id="js" />
+        <label for="js">Javascript</label>
+      </div>
+
+      <br />
+
+      <div>
+        <label for="comment">comment:</label>
+        <br />
+        <textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="3"
+          placeholder="comment here..."
+        ></textarea>
+        <br />
+        <button>Register</button>
+      </div>
+    </form>
+  </body>
+</html>

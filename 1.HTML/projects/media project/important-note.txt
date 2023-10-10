@@ -1,0 +1,5 @@
+
+ <img src="logo.jpeg" alt="logo"  loading="lazy"/>
+
+
+How to increase my web performance using-   loading="lazy"

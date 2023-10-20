@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* font-size: 12px; */
+}
+.box {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  /* width: 970px; */
+  width: 80vw;
+  height: 10vh;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+.container {
+  box-sizing: border-box;
+  border: 1px solid #000;
+  /* width: 970px; */
+  width: 80vw;
+  /* height: 80vh; */
+  min-height: 80vh;
+  margin: 23px auto;
+  /* font-size: 18px; */
+  /* font-size: 18px; */
+  background-color: aquamarine;
+}
+
+.container p {
+  border: 2px solid red;
+  font-size: 2em;
+  width: 50%;
+}
+
+.myCont {
+  box-sizing: border-box;
+  margin: 23px auto;
+  color: rgb(15, 15, 14);
+  border: 1px solid #000;
+  font-size: 22px;
+  /* width: 100vmin; */
+  width: 80vw;
+}

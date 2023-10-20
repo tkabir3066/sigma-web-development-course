@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Display Property</title>
+    <style>
+      .box {
+        background-color: burlywood;
+        border: 2px solid blue;
+        /* display: inline; */
+        display: inline-block;
+        width: 350px;
+        margin: 34px;
+        padding: 45px;
+      }
+
+      .box1 {
+        /* display: none; */
+        visibility: hidden;
+      }
+
+      #span1 {
+        border: 2px solid red;
+        background-color: aquamarine;
+      }
+      #span2 {
+        border: 2px solid green;
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box1">I am a box</div>
+    <div class="box">Also a nice box</div>
+    <span id="span1">I am a good</span>
+    <span id="span2">Boy</span>
+  </body>
+</html>

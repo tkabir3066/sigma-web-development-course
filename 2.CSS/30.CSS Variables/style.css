@@ -1,0 +1,32 @@
+:root {
+  --color: blue;
+  --seccolor: #9797d6;
+  --defpad: 23px;
+  --defop: 0.4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: var(--color, pink);
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  opacity: var(--defop);
+  list-style: none;
+  padding: var(--defpad);
+  border: 2px solid var(--seccolor);
+}
+ul li:first-child {
+  --color: orange;
+  background-color: var(--color, crimson);
+}
+.container {
+  background-color: #a6dfa6;
+}

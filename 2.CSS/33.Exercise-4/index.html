@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      :root {
+        --homeColor: green;
+        --aboutColor: crimson;
+        --contactColor: hotpink;
+      }
+      header {
+        background-color: burlywood;
+        padding: 3px;
+      }
+      ul {
+        display: flex;
+      }
+
+      ul li {
+        list-style: none;
+        margin: 0 3px;
+        padding: 5px;
+      }
+
+      ul .home:hover {
+        background-color: var(--homeColor);
+      }
+
+      ul .about:hover {
+        background-color: var(--aboutColor);
+      }
+      ul .contact:hover {
+        background-color: var(--contactColor);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="home">Home</li>
+          <li class="about">About</li>
+          <li class="contact">Contact</li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

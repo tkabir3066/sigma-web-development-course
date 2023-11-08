@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+nav {
+  background-color: pink;
+  height: 83px;
+}
+
+main {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.container {
+  background-color: green;
+  margin: 12px 34px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.box1 {
+  background-color: palevioletred;
+  height: 50vh;
+  width: 40%;
+}
+
+.box2 {
+  background-color: blue;
+  height: 50vh;
+  width: 40%;
+}
+
+.text-box {
+  padding: 34px;
+  border: 2px solid #fff;
+  margin: 10px 34vw;
+  font-size: 2em;
+  border-radius: 1em;
+}
+
+.orange-box {
+  height: 25px;
+  width: 25px;
+  background-color: orange;
+  border-radius: 35px;
+  position: fixed;
+  right: 45px;
+  bottom: 30px;
+}
+/* footer */
+footer {
+  height: 100px;
+  background-color: bisque;
+}

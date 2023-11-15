@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transform</title>
+    <style>
+      .container {
+        height: 100vh;
+        width: 80vw;
+        border: 2px solid purple;
+      }
+      .box {
+        height: 50px;
+        width: 50px;
+        background-color: beige;
+        border: 2px solid black;
+
+        /* ========= rotate()========== */
+        /* transform: rotate(40deg); */
+        /* transform: rotate(0.25turn); */
+        /* transform: rotate(0.5turn); */
+        /* transform: rotateX(40deg); */
+        /* transform: rotateY(40deg); */
+        /* transform: rotateZ(40deg); */
+
+        /* =====scale()========= */
+
+        /* transform: scale(1.5); */
+        /* transform: scaleX(1.5); */
+        /* transform: scaleY(1.5); */
+        /* transform: scale3d(1.6); */
+
+        /* =======skew()======== */
+        /* note: -----skew not applicable in Z axis--------- */
+        /* transform: skew(10deg); */
+        /* transform: skewX(10deg); */
+        /* transform: skewY(10deg); */
+
+        /* =======translate()======== */
+        /* transform: translateX(50%); */
+        /* transform: translateY(50%); */
+        /* transform: translate(100%); */
+
+        /* ======= short hand to use multiple transform properties ========= */
+
+        transform: translateY(100%) skewX(40deg) translateX(45%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">Box</div>
+    </div>
+  </body>
+</html>

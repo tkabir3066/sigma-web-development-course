@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transition</title>
+    <style>
+      .box {
+        height: 400px;
+        width: 400px;
+        background-color: tomato;
+        margin: 100px auto;
+
+        /* transition-property: width;
+        transition-duration: 0.5s;
+        transition-timing-function: cubic-bezier(0.28, 0.67, 0.96, 0.83); 
+        transition-delay: 1s;
+        */
+
+        transition: all 0.5s ease-in-out;
+      }
+
+      .box:hover {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: green;
+        transform: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/18808226/why-is-typeof-null-object

@@ -25,7 +25,7 @@ if (randomNum > 0.1) {
   // perform correct calculation
   console.log(`The result is ${eval(`${a} ${b} ${c}`)}`);
 } else {
-  // perform correct calculation
+  // perform wrong calculation
   b = obj[b];
   console.log(`The result is ${eval(`${a} ${b} ${c}`)}`);
 }

@@ -32,6 +32,17 @@ console.log(newArr); //[ 4, 9, 16, 25 ]
 // must return from the callback function
 // doesn't mutate the original array
 
+//Javascript array filter sintax:-
+// currentValue is the element currently being executed – required.
+// index the index of the element – optional.
+// arr is the array that is currently being processed – optional.
+// thisValue is an argument passed to be used as the this value in the callback – optional
+
+const filteredArray = originalArray.filter(
+  callbackFunction(currentValue, index, arr),
+  thisValue
+);
+
 let filteredArr = arr.filter((num) => {
   return num > 3;
 });

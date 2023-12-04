@@ -6,4 +6,5 @@ const filteredProduct = products.filter((product) => {
   return product === "pizza";
 });
 
-console.log(filteredProduct);
+console.log(filteredProduct); //[ 'pizza' ]
+

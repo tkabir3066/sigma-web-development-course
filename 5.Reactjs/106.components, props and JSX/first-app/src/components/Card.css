@@ -1,0 +1,8 @@
+.card {
+  width: 20vw;
+  height: 30vh;
+  background-color: cornsilk;
+  border: 2px solid tomato;
+  margin: 30px;
+  padding: 10px;
+}
